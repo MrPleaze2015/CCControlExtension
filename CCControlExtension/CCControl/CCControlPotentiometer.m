@@ -332,6 +332,7 @@
 {
     self.thumbSprite.color  = ccWHITE;
     self.selected           = NO;
+	[self sendActionsForControlEvents:CCControlEventTouchUpInside];
 }
 
 - (void)layoutWithValue:(float)value
